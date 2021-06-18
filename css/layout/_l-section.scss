@@ -1,0 +1,32 @@
+.l-section {
+  height: 100%;
+  background-color: yellowgreen;
+  padding: 30px 20px 20px 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  h3::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 50px;
+    background-color: white;
+    
+  }
+}
+.l-section__title {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.l-section__conts-a {
+  grid-area: 4 / 1 / 5 / 3;
+  background: rgba($color: #ffffff, $alpha: 0.6);
+}
+.l-section__conts-b {
+  grid-area: 5 / 1 / 6 / 3;
+  background: rgba($color: #ffffff, $alpha: 0.6);
+  margin-top: 20px;
+}

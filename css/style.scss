@@ -1,0 +1,43 @@
+// カラーやフォントの定義
+@import "setting/color";
+@import "setting/font";
+
+
+// mixin定義（ブレイクポイントなど）
+@import "mixin/animate";
+@import "mixin/breakpoint";
+
+// リセットCSSや全体の定義
+@import "foundation/reset";
+@import "foundation/base";
+
+// 大枠のレイアウト
+@import "layout/l-wrapper";
+@import "layout/l-header";
+@import "layout/l-main";
+@import "layout/l-section";
+@import "layout/l-side";
+@import "layout/l-footer";
+
+// 共通要素
+@import "component/button";
+@import "component/dlist";
+@import "component/figure";
+@import "component/heading";
+@import "component/link";
+@import "component/list";
+@import "component/table";
+@import "component/text";
+@import "component/input";
+
+// javascriptで定義されているもの
+@import "javascript/js-target";
+@import "javascript/js-trigger";
+
+// プロジェクト
+@import "project/maparea";
+@import "project/form";
+@import "project/nav";
+@import "project/section";
+@import "project/search";
+@import "project/footer";

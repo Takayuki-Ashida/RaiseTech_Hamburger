@@ -1,0 +1,12 @@
+$breakpoints: (
+  'sm': screen and (max-width: 800px),
+  'md': screen and (max-width: 1200px),
+  'lg': screen and (min-width: 1201px),
+);
+
+@mixin mq($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)}{
+    @content;
+  }
+}
+// 使用例：@include mq(sm) {}

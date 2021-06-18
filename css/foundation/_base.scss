@@ -1,0 +1,55 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+  // background: url(/images/bg-hero3.png);
+  // background-position: center center;
+  // background-attachment: fixed;
+  }
+
+a {
+  color: black;
+}
+
+p {
+  font-size: 1.4rem;
+  font-family: $font-family_light;
+}
+
+ul {
+  font-size: 1.4rem;
+}
+h1 {
+  font-size: 6.4rem;
+  font-family: $font-family_h1;
+  color: $color-h1;
+}
+h2 {
+  font-size: 3rem;
+  font-family: $font-family_h2;
+  color: $color-text;
+}
+h3 {
+  font-size: 5rem;
+  font-family: $font-family_h1;
+  color: $color-section;
+}
+h4 {
+  font-size: 3rem;
+  font-family: $font-family_h1;
+  color: $color-h1;
+}
+h5 {
+  font-size: 2.4rem;
+  font-family: $font-family_h2;
+  color: $color-section-text;
+  margin: 0;
+}

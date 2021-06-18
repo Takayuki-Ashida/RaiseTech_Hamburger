@@ -1,0 +1,23 @@
+.l-header {
+  display: flex;
+  align-items: center;
+  padding: 50px 30px 50px 60px;
+  background-color: $color-base;
+  @include mq(md) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.l-header h1 {
+  @include mq(md) {
+    font-size: 5rem;
+    padding-bottom: 30px;
+  }
+}
+.l-header__search {
+  margin: 0 0 0 auto;
+  @include mq(md) {
+    margin: 0;
+  }
+}

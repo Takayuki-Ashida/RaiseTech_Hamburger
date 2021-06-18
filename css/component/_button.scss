@@ -1,0 +1,11 @@
+.c-button-search {
+  width: 150px;
+  height: 40px;
+  font-family: $font-family_h2;
+  color: $color-h1;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border-color: rgba($color: $color-h1, $alpha: 0.4);
+  background: linear-gradient(to top, #DED8D3 0%, $color-side 100%);
+  
+}

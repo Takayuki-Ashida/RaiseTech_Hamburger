@@ -1,0 +1,12 @@
+.l-main {
+  width: 100%;
+  background: url(/img/top-view.png) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  @include mq(sm) {
+    background: url(/img/main_sm.png) center no-repeat;
+    background-size: 100% 100%;
+  }
+}

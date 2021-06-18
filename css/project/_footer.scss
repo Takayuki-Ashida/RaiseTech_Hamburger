@@ -1,0 +1,30 @@
+.p-footer {
+  background: url(/img/footer.png);
+  // background-color: $color-footer;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.p-footer__title {
+  span {
+    display: inline-block;
+    vertical-align: text-bottom;
+    width: 1px;
+    height: 15px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.p-footer__title__link {
+  font-size: 1.5rem;
+  font-family: $font-family_light;
+  color: $color-text;
+}
+.p-footer__copyright {
+  font-family: $font-family_light;
+  color: $color-text;
+  margin-top: 20px;
+}
+
