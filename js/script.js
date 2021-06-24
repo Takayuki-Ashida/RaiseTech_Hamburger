@@ -35,3 +35,4 @@ $(function () {
       $('.is-bg').removeAttr('style')
   });
 });
+
